@@ -79,7 +79,7 @@
 /* Features Section */
 
 .features-section {
-  padding: 32px 0;
+  padding: 72px 0;
 }
 
 .features-title {
@@ -99,4 +99,77 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
+}
+
+/* Quote Section */
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 100px 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.quotebox {
+  width: 1000px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.author {
+  text-align: end;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+/* CTA */
+
+.cta-section {
+  padding: 100px 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-box {
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  padding: 0 150px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 5px;
+}
+
+.cta-title {
+  color: #E5E7EB;
+}
+
+.cta-subtext {
+  color: #E5E7EB;
+}
+
+.cta-button {
+  background-color: #3882F6;
+  border: 2px solid #E5E7EB;
+  border-radius: 5px;
+  font-weight: 900;
+  color: #E5E7EB;
+  padding: 6px 24px;
+}
+
+/* Footer Section */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+  background-color: #1F2937;
+  color: #E5E7EB;
 }
